@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222637"
+    tools:context="com.example.louliang.spread.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <com.example.louliang.spread.SpreadView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:spread_center_color="@color/colorAccent"
+            app:spread_delay_milliseconds="120"
+            app:spread_distance="5"
+            app:spread_max_radius="25"
+            app:spread_radius="4"
+            app:spread_spread_color="@color/colorAccent" />
+    </RelativeLayout>
+</RelativeLayout>
